@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.bong9'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'com.perforce', name: 'p4java', version: '2024.2.2695691'
+}
+
+test {
+    useJUnitPlatform()
+}
