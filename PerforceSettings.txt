@@ -1,0 +1,13 @@
+﻿# PerforceSettings.txt
+
+# 서버 URI
+serverUri=p4java://my.perforce.server:1666
+
+# 사용자 이름
+userName=my_id
+
+# 워크스페이스명
+clientName=my_workspace_name
+
+# 비밀번호
+password=my_password
